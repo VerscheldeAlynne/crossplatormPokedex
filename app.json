@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "eindwerkCrossAlynne",
+    "slug": "eindwerkCrossAlynne",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
