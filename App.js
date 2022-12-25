@@ -5,8 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <PokeAPI/>
     </View>
   );
 }
@@ -19,3 +18,17 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+
+/*
+fetch('Your URL to fetch data from', {
+  method: 'POST',
+  headers: {
+    Accept: 'application/json',
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({
+    firstParam: 'yourValue',
+    secondParam: 'yourOtherValue',
+  }),
+});*/
