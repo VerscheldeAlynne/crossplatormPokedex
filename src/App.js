@@ -1,13 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import PokeAPI from './PokeAPI';
-import styles from "./pokedexStylesheet.css";
+import { Pokedex } from './Pokedex';
 
 export default function App() {
   return (
-    <View style={styles}>
-      <PokeAPI/>
+    <View style={styles.container}>
+      <Pokedex />
     </View>
   );
 }
