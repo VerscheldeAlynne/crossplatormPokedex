@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import { Text, View } from "react-native";
 
 
 export default function PokeAPI(){
@@ -12,5 +13,4 @@ export default function PokeAPI(){
         .then(response => response.json())
         .then(json => console.log(json))
         },[]);
-
 }
