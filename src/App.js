@@ -2,7 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Pokedex } from './Pokedex';
-import Form1 from './PokeAPI';
 
 export default function App() {
   return (
@@ -12,15 +11,31 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
+/**const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
-
+  pokedex: {
+    backgroundColor: '#e61515',
+    width: 848,
+    margin: 0 ,
+    padding: 1 ,
+    borderRadius: 15,
+    borderColor:  '#000' ,
+    border: 10,
+    flex: 1,
+},
+screen: {
+  borderRadius: 3,
+  FontFace: "VT323",
+  borderColor: '#879a65',
+  border: 3,
+},
+})
+*/
 
 /*
 fetch('Your URL to fetch data from', {
